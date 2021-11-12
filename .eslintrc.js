@@ -10,7 +10,9 @@ module.exports = {
   },
   rules: {
     'no-restricted-syntax': 0,
+    'no-param-reassign': 0,
     'import/prefer-default-export': 0,
+    'guard-for-in': false,
     quotes: ['error', 'single'],
     'no-console': [
       'warn',
